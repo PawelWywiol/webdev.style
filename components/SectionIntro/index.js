@@ -1,5 +1,7 @@
 import styled from "@emotion/styled";
 
+import Logo from "../Logo";
+
 import {
   Section,
   Sides,
@@ -43,7 +45,9 @@ const Intro = () => {
             </ClickEventWrapper>
           </div>
         </Side>
-        <Side hide={"sm"}></Side>
+        <Side>
+          <Logo />
+        </Side>
       </Sides>
     </Section>
   );

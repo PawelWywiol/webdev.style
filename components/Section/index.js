@@ -25,6 +25,7 @@ const SectionContent = styled.div`
 const SectionWrapper = styled.section`
   display: block;
   position: relative;
+  overflow: hidden;
   ${(props) =>
     props.light
       ? `

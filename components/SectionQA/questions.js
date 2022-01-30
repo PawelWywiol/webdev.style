@@ -58,22 +58,6 @@ const questions = [
     ),
   },
   {
-    q: "Czy są jakieś dodatkowe koszta?",
-    a: (
-      <>
-        Aby strona internetowa (lub jakikolwiek inny projekt webowy) mogła
-        zaistnieć w sieci musi być umieszczona na serwerze hostingowym, a
-        następnie do niego musi być podpięta domena, którą sobie wybierzesz
-        (adres URL strony). Oczywiście pomogę w wyborze hostingu, zakupie domeny
-        i w konfiguracji całości. Ceny dzierżawy hostingu zaczynają się od około
-        200PLN rocznie, zaś domeny zaczynają się od około 156PLN rocznie, co
-        daje od około 356PLN rocznie. Czyli utrzymanie strony (czy aplikacji),
-        która pracuje dla Ciebie 24h na dobę, 7 dni w tygodniu kosztuje Cie
-        mniej niż złotówkę dziennie.
-      </>
-    ),
-  },
-  {
     q: "Jak długo trwałoby przygotowanie takiej strony?",
     a: (
       <>

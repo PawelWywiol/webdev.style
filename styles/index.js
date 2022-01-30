@@ -4,7 +4,7 @@ import emotionNormalize from "emotion-normalize";
 const globals = (
   <Global
     styles={css`
-      @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@300;400;900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;900&family=Poppins:wght@300;400;900&display=swap");
 
       :root {
         --gap: 0.5rem;
@@ -14,25 +14,21 @@ const globals = (
 
         --side-gap: 4rem;
 
-        --default-background: radial-gradient(
-          circle farthest-corner at 100% 100%,
-          #3a4d61,
-          #222f3e 73%
-        );
-        --default-color: #fefefe;
-        --default: #3a4d61;
+        --default-background: #ffffff;
+        --default-color: #000000;
+        --default: #ffffff;
 
-        --primary-background: #ff9900;
-        --primary-color: #232f3e;
-        --primary: #ff9900;
+        --primary-background: #04b070;
+        --primary-color: #ffffff;
+        --primary: #04b070;
 
-        --light-background: #f0f4fa;
-        --light-color: #232f3e;
-        --light: #f0f4fa;
+        --light-background: #ffffff;
+        --light-color: #000000;
+        --light: #ffffff;
 
-        --dark-background: #131c25;
-        --dark-color: #fefefe;
-        --dark: #131c25;
+        --dark-background: #ffffff;
+        --dark-color: #000000;
+        --dark: #ffffff;
 
         --box-shadow: 0 0.74rem 0.75rem rgb(0 0 0 / 21%);
 

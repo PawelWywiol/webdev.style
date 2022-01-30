@@ -4,6 +4,7 @@ const Wrapper = styled.div`
   display: block;
   position: relative;
   margin: 0 auto;
+  width: 75%;
 `;
 
 const LogoContent = () => (

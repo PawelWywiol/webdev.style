@@ -111,8 +111,8 @@ const ProjectMediaPlayer = styled(MediaPlayer)`
         box-shadow: var(--box-shadow);
         ${(props) =>
           props.landscape
-            ? "width: 32rem !important;"
-            : "height: 32rem !important;"}
+            ? "width: 30rem !important;"
+            : "height: 30rem !important;"}
 
         @media (max-width: 760px) {
           width: 90% !important;

@@ -85,10 +85,6 @@ Zamieniam pomysły Twoje i Twoich klientów na realne projekty webowe. Do tej po
 
 Niestety jest to zależne od samego projektu. Od jego typu, wielkości, czasochłonności. Bez ustalenia szczegółów ciężko byłoby określić koszt produkcji. Opisując swój projekt zaproponuj budżet. Razem ustalimy w jaki sposób możemy zrealizować Twój pomysł.
 
-### Czy są jakieś dodatkowe koszta?
-
-Aby strona internetowa (lub jakikolwiek inny projekt webowy) mogła zaistnieć w sieci musi być umieszczona na serwerze hostingowym, a następnie do niego musi być podpięta domena, którą sobie wybierzesz (adres URL strony). Oczywiście pomogę w wyborze hostingu, zakupie domeny i w konfiguracji całości. Ceny dzierżawy hostingu zaczynają się od około 200PLN rocznie, zaś domeny zaczynają się od około 156PLN rocznie, co daje od około 356PLN rocznie. Czyli utrzymanie strony (czy aplikacji), która pracuje dla Ciebie 24h na dobę, 7 dni w tygodniu kosztuje Cie mniej niż złotówkę dziennie.
-
 ### Jak długo trwałoby przygotowanie takiej strony?
 
 W tym przypadku to także cecha indywidualna. Czas pracy za każdym razem jest inny i również jest zależny od typu projekty i jego wielkości, a często też od akceptacji przez klienta kolejnych kroków produkcji. Uogólniając średni czas przygotowania strony to mniej więcej dwa tygodnie na przygotowanie projektu i dwa tygodnie na jego realizację. Bardziej rozbudowane strony czasami zajmują nawet dwa razy więcej czasu.

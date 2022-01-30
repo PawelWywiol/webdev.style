@@ -1,4 +1,3 @@
-import SmoothScroll from "../components/SmoothScroll";
 import Head from "../components/PageHead";
 import Start from "../components/SectionStart";
 import Intro from "../components/SectionIntro";
@@ -22,14 +21,11 @@ export default function Home() {
           "strony internetowe, landingi, mailingi, aplikacje, gry, react, javascript, front end developer, back end developer, web developer, Paweł Wywioł"
         }
       />
-      <Start />
-      <SmoothScroll>
-        <Intro />
-        <About />
-        <Portfolio />
-        <QA />
-        <Contact />
-      </SmoothScroll>
+      <Intro />
+      <About />
+      <Portfolio />
+      <QA />
+      <Contact />
     </>
   );
 }
