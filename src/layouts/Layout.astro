@@ -34,6 +34,19 @@ const lang = getLangFromUrl(Astro.url);
     />
     <meta name="theme-color" content="#140b05" />
     <slot name="head" />
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3DR99T4926"
+      is:inline></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-3DR99T4926');
+    </script>
   </head>
   <body>
     <aside><div></div></aside>
