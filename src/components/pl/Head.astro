@@ -1,0 +1,166 @@
+---
+const title = 'Paweł Wywioł – Doświadczony Web Developer';
+const description =
+  'Tworzę nowoczesne strony i aplikacje webowe. Od koncepcji po wdrożenie – z naciskiem na jakość, wydajność i realne działanie.';
+const url = 'https://webdev.style';
+const image = 'https://webdev.style/cover.png';
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={url} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={image} />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={url} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Paweł Wywioł",
+    "alternateName": "webdev.style",
+    "jobTitle": "Web Developer",
+    "url": "https://webdev.style",
+    "email": "pawel@webdev.style",
+    "image": "https://webdev.style/profile.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wrocław",
+      "addressCountry": "PL"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/pawel-wywiol/",
+      "https://github.com/PawelWywiol"
+    ],
+    "description": "Doświadczony web developer z ponad 10-letnim stażem. Tworzy nowoczesne strony, aplikacje i narzędzia webowe — od landingów po złożone systemy e-commerce, konfiguratory i gry 2D/3D.",
+    "knowsAbout": [
+      "React",
+      "Next.js",
+      "Remix",
+      "Astro",
+      "TypeScript",
+      "JavaScript",
+      "Tailwind CSS",
+      "Radix UI",
+      "Material UI",
+      "SCSS",
+      "Styled Components",
+      "Lexical",
+      "Zod",
+      "tRPC",
+      "React Query",
+      "Next-Intl",
+      "Node.js",
+      "Express",
+      "GraphQL",
+      "REST API",
+      "WordPress",
+      "PHP",
+      "Payload CMS",
+      "Redis",
+      "MySQL",
+      "Docker",
+      "Turborepo",
+      "Git",
+      "Vitest",
+      "Playwright",
+      "Storybook",
+      "Testing Library",
+      "Google Tag Manager",
+      "Sentry",
+      "Cloudflare",
+      "ESLint",
+      "Exponea",
+      "eTrusted",
+      "Dofinder",
+      "Adyen",
+      "FabricJS",
+      "PixiJS",
+      "ThreeJS",
+      "BabylonJS",
+      "AnimeJS"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "4soft s.a.",
+      "url": "https://4soft.pl"
+    },
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Fullstack Web Developer",
+      "skills": [
+        "Tworzenie i rozwój aplikacji webowych",
+        "Integracje z API",
+        "Konfiguracja i optymalizacja wydajności",
+        "Mentoring",
+        "Tworzenie skryptów GTM",
+        "Zarządzanie kodem i repozytoriami Git",
+        "Obsługa domen, DNS, Cloudflare"
+      ]
+    },
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Ponad dekada praktyki zawodowej od 2013 roku",
+        "credentialCategory": "ExperienceCredential"
+      }
+    ],
+    "memberOf": {
+      "@type": "Organization",
+      "name": "Społeczność open-source",
+      "description": "Współpraca z zespołami projektowymi i open-source. Dzielę się wiedzą, uczestniczę w kod review i mentoringu."
+    },
+    "worksOn": [
+      {
+        "@type": "CreativeWork",
+        "name": "bimago.pl",
+        "description": "Nowoczesna platforma e-commerce oparta na Next.js z naciskiem na wydajność i integracje z zewnętrznymi systemami.",
+        "url": "https://bimago.pl"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Marek Krajewski — strona autorska",
+        "description": "Strona pisarza zbudowana na WordPress z dopracowaną warstwą wizualną.",
+        "url": "https://webdev.style"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Monopol na zbawienie",
+        "description": "Gra promująca książkę wydawnictwa Znak — mobilna, responsywna, oparta o HTML5."
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Send Your Christmas Heart",
+        "description": "Edytor graficzny do tworzenia kompozycji świątecznych i ich udostępniania."
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Days Gone — Mobilny Survival",
+        "description": "Aplikacja konkursowa z interakcją fizyczną i efektami AR na Facebooku."
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Plan na miłość",
+        "description": "Minimalistyczny landing page promujący książkę wydawnictwa Znak."
+      }
+    ],
+    "hobby": [
+      "Eksperymenty z mikrokontrolerami (ESP32)",
+      "Retro komputery",
+      "Homelab",
+      "Literatura klasyczna",
+      "Filmy o zombie"
+    ]
+  }
+</script>

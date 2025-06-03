@@ -1,0 +1,10 @@
+---
+const { theme } = Astro.props;
+const validTheme = theme === 'dark' ? 'dark' : undefined;
+---
+
+<section class={validTheme}>
+  <article>
+    <slot />
+  </article>
+</section>

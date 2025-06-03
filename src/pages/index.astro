@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Section from '../components/Section.astro';
+import MediaController from '../components/MediaController.astro';
+import Head from '../components/en/Head.astro';
+import { Content as WelcomeContent } from '../components/en/content/welcome.md';
+import { Content as InvitationContent } from '../components/en/content/invitation.md';
+import { Content as AboutContent } from '../components/en/content/about.md';
+import { Content as SkillsContent } from '../components/en/content/skills.md';
+import { Content as ExperienceContent } from '../components/en/content/experience.md';
+import { Content as Portfolio } from '../components/en/content/portfolio.md';
+import { Content as Interests } from '../components/en/content/interests.md';
+import { Content as Contact } from '../components/en/content/contact.md';
+---
+
+<Layout>
+  <Head slot="head" />
+  <MediaController />
+  <Section>
+    <WelcomeContent />
+  </Section>
+  <Section>
+    <InvitationContent />
+  </Section>
+  <Section>
+    <AboutContent />
+  </Section>
+  <Section>
+    <SkillsContent />
+  </Section>
+  <Section>
+    <ExperienceContent />
+  </Section>
+  <Section>
+    <Portfolio />
+  </Section>
+  <Section>
+    <Interests />
+  </Section>
+  <Section>
+    <Contact />
+  </Section>
+</Layout>

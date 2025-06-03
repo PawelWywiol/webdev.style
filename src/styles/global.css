@@ -1,0 +1,192 @@
+@import 'tailwindcss';
+
+@import './fonts.css';
+
+@layer base {
+  html,
+  body {
+    @apply text-[12px] md:text-[14px] bg-dark text-light;
+    line-height: 1.6;
+  }
+
+  main {
+    position: relative;
+  }
+
+  body > aside {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  body > aside > div {
+    --noise-gap: 20rem;
+    position: absolute;
+    top: calc(-1 * var(--noise-gap) / 2);
+    left: calc(-1 * var(--noise-gap) / 2);
+    width: calc(100% + var(--noise-gap));
+    height: calc(100% + var(--noise-gap));
+    opacity: 0.8;
+    background-image: url('../assets/noise.avif');
+    background-position: 50%;
+    animation: noise 2s steps(2) infinite;
+  }
+
+  a {
+    @apply text-accent no-underline;
+  }
+
+  h2 {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
+  header,
+  footer {
+    @apply relative bg-dark text-light min-h-fit flex items-center justify-stretch;
+    @apply h-32;
+  }
+
+  header ul,
+  footer ul {
+    @apply h-full m-auto w-content max-w-content flex flex-row items-stretch justify-between;
+  }
+
+  header ul li {
+    @apply relative flex flex-col items-start justify-center;
+    @apply text-left;
+  }
+
+  header ul li:last-of-type {
+    @apply min-w-16 items-end;
+  }
+
+  header ul li svg {
+    @apply h-full;
+  }
+
+  footer {
+    @apply h-auto py-44;
+    @apply desktop:h-32 desktop:py-0;
+  }
+
+  footer ul {
+    @apply items-center justify-center gap-8 flex-col desktop:flex-row desktop:w-auto;
+    @apply grid grid-cols-1;
+    @apply desktop:flex;
+  }
+
+  footer ul li {
+    @apply relative flex items-start gap-2 whitespace-nowrap;
+  }
+
+  footer ul li svg {
+    @apply h-6 w-6;
+  }
+
+  section {
+    @apply flex py-44 desktop:py-64 bg-light text-dark;
+    /* @apply overflow-hidden; */
+  }
+
+  section:nth-of-type(2n),
+  section.dark {
+    @apply bg-dark text-light [&_h2]:font-bold;
+  }
+
+  article {
+    @apply relative flex flex-col gap-6 desktop:gap-y-4;
+    @apply m-auto w-content max-w-content;
+    @apply desktop:grid desktop:grid-cols-[0.6fr_1fr] desktop:[&_>:not(:first-child)]:col-start-2;
+    @apply desktop:[&_>:first-child]:h-0 desktop:[&_>:first-child]:sticky desktop:[&_>:first-child]:top-8;
+    @apply [&_h3]:mt-6 desktop:[&_h3:not(:first-of-type)]:mt-12 desktop:[&_h3:first-of-type]:mt-0;
+  }
+
+  article p {
+    @apply perspective-midrange;
+  }
+
+  article img,
+  article video {
+    @apply relative block max-w-full m-auto scale-90 rounded-lg;
+    transform: rotate3d(0.801784, -0.534522, 0.267261, 32deg)
+      translate3d(0, -1rem, 0);
+  }
+
+  article video {
+    position: absolute;
+    inset: 0;
+  }
+
+  @keyframes noise {
+    0% {
+      transform: translate3d(0, 9rem, 0);
+    }
+
+    10% {
+      transform: translate3d(-1rem, -4rem, 0);
+    }
+
+    20% {
+      transform: translate3d(-8rem, 2rem, 0);
+    }
+
+    30% {
+      transform: translate3d(9rem, -9rem, 0);
+    }
+
+    40% {
+      transform: translate3d(-2rem, 7rem, 0);
+    }
+
+    50% {
+      transform: translate3d(-9rem, -4rem, 0);
+    }
+
+    60% {
+      transform: translate3d(2rem, 6rem, 0);
+    }
+
+    70% {
+      transform: translate3d(7rem, -8rem, 0);
+    }
+
+    80% {
+      transform: translate3d(-9rem, 1rem, 0);
+    }
+
+    90% {
+      transform: translate3d(6rem, -5rem, 0);
+    }
+
+    to {
+      transform: translate3d(-7rem, 0, 0);
+    }
+  }
+}
+
+@theme {
+  --font-sans: 'Comfortaa', system-ui, sans-serif;
+  --width-content: 58.5rem;
+  --max-width-content: calc(100vw - 4rem);
+  --breakpoint-desktop: 1024px;
+  --color-dark: #140b05;
+  --color-light: #ffffff;
+  --color-accent: #fc9505;
+}
