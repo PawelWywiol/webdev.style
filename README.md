@@ -113,7 +113,7 @@ A modern e-commerce platform built with Next.js. Focused on performance, SEO opt
 
 <small>Next.js, React, TypeScript, Node.js • tRPC, React Query, Next-Intl, Radix UI, Material UI, Zod • SCSS, Tailwind • Payload CMS, Redis, Docker • Testing Library, Vitest, Playwright • GTM, Sentry, ESLint, Turborepo, Git</small>
 
-![bimago.pl](/portfolio/bimago.webp)
+![bimago.pl](https://webdev.style/portfolio/bimago.webp)
 
 ### Marek Krajewski
 
@@ -121,7 +121,7 @@ The official website of a well-known author, built with WordPress. Smooth CSS tr
 
 <small>WordPress (Gutenberg) • Parcel • CSS3 (animation optimization) • front-end development</small>
 
-![Marek Krajewski](/portfolio/marek-krajewski-pl.webp)
+![Marek Krajewski](https://webdev.style/portfolio/marek-krajewski-pl.webp)
 
 ### Monopol na zbawienie
 
@@ -129,7 +129,7 @@ A promotional game for a book by Wydawnictwo Znak. A reinterpretation of the ori
 
 <small>Vanilla JS • Babylon.js • Flash decompilation, logic analysis and migration • front-end development</small>
 
-![Monopol na zbawienie](/portfolio/monopol-na-zbawienie.webp)
+![Monopol na zbawienie](https://webdev.style/portfolio/monopol-na-zbawienie.webp)
 
 ### Days Gone – Mobile Survival
 
@@ -137,7 +137,7 @@ A contest app for PlayStation Poland. Users unlocked a special Facebook effect a
 
 <small>React, TypeScript • PWA, Google Maps API, Geolocation • front-end and back-end development</small>
 
-![Days Gone – Mobilny Survival](/portfolio/days-gone-ms-short.webp)
+![Days Gone – Mobilny Survival](https://webdev.style/portfolio/days-gone-ms-short.webp)
 
 ### Send Your Christmas Heart
 
@@ -145,7 +145,7 @@ An interactive graphic editor where users created and shared their own festive c
 
 <small>JavaScript • PixiJS, AnimeJS • 2D rendering, animations • front-end and back-end development</small>
 
-![Send Your Christmas Heart](/portfolio/sych.webp)
+![Send Your Christmas Heart](https://webdev.style/portfolio/sych.webp)
 
 ### Plan na miłość
 
@@ -153,7 +153,7 @@ A minimalist landing page created to promote a book for Wydawnictwo Znak. Focuse
 
 <small>Next.js, React • UX/UI design, conversion optimization • front-end and back-end • domain and mailbox management</small>
 
-![Plan na miłość](/portfolio/plan-na-milosc.webp)
+![Plan na miłość](https://webdev.style/portfolio/plan-na-milosc.webp)
 
 ## After Hours
 
