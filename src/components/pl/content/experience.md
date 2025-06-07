@@ -4,7 +4,7 @@
 
 Front-end Developer / czerwiec 2024 – obecnie
 
-Rozwijam platformę e-commerce bimago.pl opartą na Next.js. Odpowiadam za wdrażanie funkcji, optymalizację wydajności (m.in. optymalizację rozmiaru RSC) oraz utrzymanie jakości architektury front-endowej. Tworzę aplikacje towarzyszące, skrypty GTM i integruję systemy zewnętrzne (Exponea, eTrusted, Dofinder, Adyen).
+Rozwijam platformę e-commerce bimago.pl opartą na Next.js. Odpowiadam za wdrażanie funkcji, optymalizację wydajności (m.in. optymalizację rozmiaru RSC) oraz utrzymanie jakości architektury front-endowej. Tworzę aplikacje towarzyszące, skrypty GTM i integruję systemy zewnętrzne (Exponea, eTrusted, Doofinder, Adyen).
 
 <small>Stack: React, Next.js, TypeScript, tRPC, React Query, Next-Intl, Radix UI, Material UI, Zod, SCSS, Tailwind, Payload CMS, Docker, Node.js, Redis, Testing Library, Vitest, Playwright, GTM, Sentry, ESLint, Turborepo, Git</small>
 

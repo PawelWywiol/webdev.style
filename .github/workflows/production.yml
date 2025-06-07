@@ -32,7 +32,7 @@ jobs:
       - name: Deploy to server
         uses: easingthemes/ssh-deploy@main
         env:
-          ARGS: '-avzvPL --no-perms --no-owner --no-group'
+          ARGS: '-avzvPL --no-perms --no-owner --no-group --delete'
           SOURCE: 'dist/'
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}

@@ -26,6 +26,6 @@
 
 ### Inne
 
-- Integracje z API zewnętrznymi (Exponea, eTrusted, Dofinder, Adyen)
+- Integracje z API zewnętrznymi (Exponea, eTrusted, Doofinder, Adyen)
 - Tworzenie i rozwój skryptów oraz tagów w GTM
 - Obsługa domen, skrzynek, konfiguracji DNS, wsparcie powdrożeniowe

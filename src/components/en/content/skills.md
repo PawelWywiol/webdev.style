@@ -26,6 +26,6 @@
 
 ### Other
 
-- Integration with external APIs (Exponea, eTrusted, Dofinder, Adyen)
+- Integration with external APIs (Exponea, eTrusted, Doofinder, Adyen)
 - Creating and maintaining GTM scripts and tags
 - Domain, email, and DNS setup, post-deployment support
