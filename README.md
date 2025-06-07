@@ -1,6 +1,6 @@
 # webdev.style Paweł Wywioł
 
-## I build websites and applications that just work. Well.
+## I build websites and applications that just work. Well
 
 Hi! My name is Paweł and I’m an experienced web developer. I create, develop, and maintain modern websites, applications, and web tools — from simple landing pages to complex e-commerce systems and games. I focus on quality, performance, and real value for the user.
 
@@ -14,9 +14,9 @@ I have over a decade of hands-on experience working with clients and teams — f
 
 Whether you need a lightweight landing page, a configurator, a game, or a complex web application — you can count on:
 
-- a collaborative approach and understanding of your business needs,  
-- technical support at every stage — from planning to development and maintenance,  
-- clean, maintainable code,  
+- a collaborative approach and understanding of your business needs,
+- technical support at every stage — from planning to development and maintenance,
+- clean, maintainable code,
 - clear communication and a no-fuss workflow.
 
 Tell me what you're working on — let's see what I can offer.
@@ -59,17 +59,17 @@ I value pragmatism, clean code, collaboration, and knowledge sharing. I enjoy le
 
 ### Other
 
-- Integration with external APIs (Exponea, eTrusted, Dofinder, Adyen)
+- Integration with external APIs (Exponea, eTrusted, Doofinder, Adyen)
 - Creating and maintaining GTM scripts and tags
 - Domain, email, and DNS setup, post-deployment support
 
 ## What Have I Been Working on Lately?
 
-### 4soft S.A.
+### 4soft S.A
 
 Front-end Developer / June 2024 – Present
 
-I’m developing the bimago.pl e-commerce platform based on Next.js. I'm responsible for implementing features, optimizing performance (e.g., RSC size optimization), and maintaining the quality of the front-end architecture. I create companion apps, GTM scripts, and integrate external systems (Exponea, eTrusted, Dofinder, Adyen).
+I’m developing the bimago.pl e-commerce platform based on Next.js. I'm responsible for implementing features, optimizing performance (e.g., RSC size optimization), and maintaining the quality of the front-end architecture. I create companion apps, GTM scripts, and integrate external systems (Exponea, eTrusted, Doofinder, Adyen).
 
 <small>Stack: React, Next.js, TypeScript, tRPC, React Query, Next-Intl, Radix UI, Material UI, Zod, SCSS, Tailwind, Payload CMS, Docker, Node.js, Redis, Testing Library, Vitest, Playwright, GTM, Sentry, ESLint, Turborepo, Git</small>
 

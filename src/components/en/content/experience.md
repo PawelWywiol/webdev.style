@@ -1,10 +1,10 @@
 ## What Have I Been Working on Lately?
 
-### 4soft S.A.
+### 4soft S.A
 
 Front-end Developer / June 2024 – Present
 
-I’m developing the bimago.pl e-commerce platform based on Next.js. I'm responsible for implementing features, optimizing performance (e.g., RSC size optimization), and maintaining the quality of the front-end architecture. I create companion apps, GTM scripts, and integrate external systems (Exponea, eTrusted, Dofinder, Adyen).
+I’m developing the bimago.pl e-commerce platform based on Next.js. I'm responsible for implementing features, optimizing performance (e.g., RSC size optimization), and maintaining the quality of the front-end architecture. I create companion apps, GTM scripts, and integrate external systems (Exponea, eTrusted, Doofinder, Adyen).
 
 <small>Stack: React, Next.js, TypeScript, tRPC, React Query, Next-Intl, Radix UI, Material UI, Zod, SCSS, Tailwind, Payload CMS, Docker, Node.js, Redis, Testing Library, Vitest, Playwright, GTM, Sentry, ESLint, Turborepo, Git</small>
 
