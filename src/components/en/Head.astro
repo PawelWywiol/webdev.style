@@ -9,6 +9,14 @@ const image = 'https://webdev.style/cover.png';
 <title>{title}</title>
 <meta name="description" content={description} />
 
+<!-- canonical link -->
+<link rel="canonical" href={url} />
+
+<!-- href lang -->
+<link rel="alternate" href={url} hreflang="x-default" />
+<link rel="alternate" href={url} hreflang="en" />
+<link rel="alternate" href={`${url}/pl`} hreflang="pl" />
+
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content={url} />
@@ -24,14 +32,14 @@ const image = 'https://webdev.style/cover.png';
 <meta name="twitter:image" content={image} />
 
 <!-- Schema.org -->
-<script type="application/ld+json">
+<script type="application/ld+json" is:inline>
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Paweł Wywioł",
     "alternateName": "webdev.style",
     "jobTitle": "Web Developer",
-    "url": "https://webdev.style",
+    "url": "https://webdev.style/",
     "email": "pawel@webdev.style",
     "image": "https://webdev.style/profile.png",
     "address": {

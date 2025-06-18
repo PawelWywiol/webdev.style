@@ -78,7 +78,7 @@
   }
 
   header ul li svg {
-    @apply h-full;
+    @apply h-full max-w-full;
   }
 
   footer {
