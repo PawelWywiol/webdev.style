@@ -67,9 +67,9 @@ I value pragmatism, clean code, collaboration, and knowledge sharing. I enjoy le
 
 ### 4soft S.A
 
-Front-end Developer / June 2024 – Present
+Front-end Developer / June 2024 – July 2025
 
-I’m developing the bimago.pl e-commerce platform based on Next.js. I'm responsible for implementing features, optimizing performance (e.g., RSC size optimization), and maintaining the quality of the front-end architecture. I create companion apps, GTM scripts, and integrate external systems (Exponea, eTrusted, Doofinder, Adyen).
+While working at Artgeist sp. z o.o., I developed the bimago.pl ecommerce platform using Next.js. I was responsible for implementing features, optimizing performance including RSC components and maintaining the quality of the front-end architecture. I also built companion applications, created GTM scripts, and integrated external systems such as Exponea, eTrusted, Dofinder, and Adyen.
 
 <small>Stack: React, Next.js, TypeScript, tRPC, React Query, Next-Intl, Radix UI, Material UI, Zod, SCSS, Tailwind, Payload CMS, Docker, Node.js, Redis, Testing Library, Vitest, Playwright, GTM, Sentry, ESLint, Turborepo, Git</small>
 

@@ -2,9 +2,9 @@
 
 ### 4soft s.a
 
-Front-end Developer / czerwiec 2024 – obecnie
+Front-end Developer / czerwiec 2024 – lipiec 2025
 
-Rozwijam platformę e-commerce bimago.pl opartą na Next.js. Odpowiadam za wdrażanie funkcji, optymalizację wydajności (m.in. optymalizację rozmiaru RSC) oraz utrzymanie jakości architektury front-endowej. Tworzę aplikacje towarzyszące, skrypty GTM i integruję systemy zewnętrzne (Exponea, eTrusted, Doofinder, Adyen).
+Kontynuując pracę w Artgeist sp. z o.o., rozwijałem platformę ecommerce bimago.pl opartą na Next.js. Byłem odpowiedzialny za implementację nowych funkcji, optymalizację wydajności (w tym komponenty RSC) oraz utrzymanie jakości architektury front-endu. Tworzyłem również aplikacje towarzyszące, przygotowywałem skrypty GTM i integrowałem zewnętrzne systemy, takie jak Exponea, eTrusted, Dofinder i Adyen.
 
 <small>Stack: React, Next.js, TypeScript, tRPC, React Query, Next-Intl, Radix UI, Material UI, Zod, SCSS, Tailwind, Payload CMS, Docker, Node.js, Redis, Testing Library, Vitest, Playwright, GTM, Sentry, ESLint, Turborepo, Git</small>
 
