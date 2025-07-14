@@ -174,3 +174,5 @@ Want to discuss a project, potential collaboration, or just have a specific ques
 [li/pawel-wywiol](https://www.linkedin.com/in/pawel-wywiol/)
 
 [github/PawelWywiol](https://github.com/PawelWywiol)
+
+[Resume EN](https://webdev.style/pawel-wywiol-en-at-webdev-dot-style.pdf) / [Resume PL](https://webdev.style/pawel-wywiol-pl-at-webdev-dot-style.pdf)
