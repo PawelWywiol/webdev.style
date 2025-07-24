@@ -1,18 +1,14 @@
 ## Co robiłem przez ostatnie lata?
 
-### 4soft s.a
-
-Front-end Developer / czerwiec 2024 – lipiec 2025
-
-Kontynuując pracę w Artgeist sp. z o.o., rozwijałem platformę ecommerce bimago.pl opartą na Next.js. Byłem odpowiedzialny za implementację nowych funkcji, optymalizację wydajności (w tym komponenty RSC) oraz utrzymanie jakości architektury front-endu. Tworzyłem również aplikacje towarzyszące, przygotowywałem skrypty GTM i integrowałem zewnętrzne systemy, takie jak Exponea, eTrusted, Dofinder i Adyen.
-
-<small>Stack: React, Next.js, TypeScript, tRPC, React Query, Next-Intl, Radix UI, Material UI, Zod, SCSS, Tailwind, Payload CMS, Docker, Node.js, Redis, Testing Library, Vitest, Playwright, GTM, Sentry, ESLint, Turborepo, Git</small>
-
 ### artgeist sp. z o.o
 
-Front-end Developer / wrzesień 2021 – maj 2024
+Front-end Developer / wrzesień 2021 – lipiec 2025
 
-Projektowałem i rozwijałem front platformy bimago.pl (Next.js). Tworzyłem landingi, moduły i szablony (Magento 1/2), rozwijałem niestandardowe skrypty GTM i integrowałem systemy zewnętrzne. Dbałem o jakość kodu i wydajność aplikacji.
+Projektowałem i zbudowałem frontend platformy e-commerce bimago.pl z wykorzystaniem Next.js. Byłem odpowiedzialny za tworzenie stron docelowych, modułów oraz szablonów (zarówno dla Magento 1, jak i Magento 2), implementację nowych funkcjonalności oraz utrzymanie wysokiej jakości architektury frontendu.
+
+Do moich zadań należała również optymalizacja wydajności aplikacji — w tym praca z React Server Components (RSC) — oraz zarządzanie jakością kodu.
+
+Dodatkowo tworzyłem niestandardowe skrypty GTM, aplikacje towarzyszące oraz integrowałem zewnętrzne systemy, takie jak Exponea, eTrusted, Dofinder i Adyen.
 
 <small>Stack: React, Next.js, TypeScript, tRPC, React Query, Next-Intl, Radix UI, Payload CMS, Lexical, Material UI, Zod, SCSS, Tailwind, Docker, Redis, Vitest, Playwright, GTM, Sentry</small>
 

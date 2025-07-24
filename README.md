@@ -65,19 +65,13 @@ I value pragmatism, clean code, collaboration, and knowledge sharing. I enjoy le
 
 ## What Have I Been Working on Lately?
 
-### 4soft S.A
-
-Front-end Developer / June 2024 – July 2025
-
-While working at Artgeist sp. z o.o., I developed the bimago.pl ecommerce platform using Next.js. I was responsible for implementing features, optimizing performance including RSC components and maintaining the quality of the front-end architecture. I also built companion applications, created GTM scripts, and integrated external systems such as Exponea, eTrusted, Dofinder, and Adyen.
-
-<small>Stack: React, Next.js, TypeScript, tRPC, React Query, Next-Intl, Radix UI, Material UI, Zod, SCSS, Tailwind, Payload CMS, Docker, Node.js, Redis, Testing Library, Vitest, Playwright, GTM, Sentry, ESLint, Turborepo, Git</small>
-
 ### artgeist sp. z o.o
 
-Front-end Developer / September 2021 – May 2024
+Front-end Developer / September 2021 – July 2025
 
-I designed and developed the front end of the bimago.pl platform (Next.js). I created landing pages, modules, and templates (Magento 1/2), developed custom GTM scripts, and integrated external systems. I focused on code quality and application performance.
+I designed and built the front-end of the bimago.pl e-commerce platform using Next.js. I was responsible for creating landing pages, reusable modules, and templates (for both Magento 1 and 2), as well as implementing new features and maintaining high-quality front-end architecture. My role also included performance optimization—including work with React Server Components (RSC)—and code quality management.
+
+In addition, I developed custom GTM scripts and companion applications, and integrated external systems such as Exponea, eTrusted, Dofinder, and Adyen.
 
 <small>Stack: React, Next.js, TypeScript, tRPC, React Query, Next-Intl, Radix UI, Payload CMS, Lexical, Material UI, Zod, SCSS, Tailwind, Docker, Redis, Vitest, Playwright, GTM, Sentry</small>
 
