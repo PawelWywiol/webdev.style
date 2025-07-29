@@ -1,0 +1,54 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Section from '../../components/Section.astro';
+import Head from '../../components/en/Head.astro';
+import { Content as Contact } from '../../content/en/contact.md';
+import { getCollection, render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const docs: CollectionEntry<'docs'>[] = await getCollection('docs');
+
+  return docs.map((doc) => ({
+    params: {
+      slug: doc.slug,
+    },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const items = await getCollection(
+  'docs',
+  (doc: CollectionEntry<'docs'>) => doc.slug === slug
+);
+
+if (!items || items.length === 0) {
+  throw new Error(`Document not found.`);
+}
+const doc = items[0];
+const { Content } = await render(doc);
+---
+
+<Layout>
+  <Head slot="head" />
+  <Section class="docs">
+    <slot slot="nav">
+      <nav>
+        <ul>
+          <li>
+            <a href="/docs">Docs</a>
+          </li>
+          <li><span>{'-'}</span></li>
+          <li>
+            <span>{doc.data.category}</span>
+          </li>
+        </ul>
+      </nav>
+    </slot>
+    <Content />
+  </Section>
+  <Section>
+    <Contact />
+  </Section>
+</Layout>

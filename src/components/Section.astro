@@ -1,9 +1,10 @@
 ---
-const { theme } = Astro.props;
+const { theme, class: className } = Astro.props;
 const validTheme = theme === 'dark' ? 'dark' : undefined;
 ---
 
-<section class={validTheme}>
+<section class={[validTheme, className].filter(Boolean).join(' ')}>
+  <slot name="nav" />
   <article>
     <slot />
   </article>

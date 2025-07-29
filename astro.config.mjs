@@ -2,11 +2,12 @@
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'astro/config';
 import remarkLazyLoading from './src/plugins/remarkLazyLoading';
+import remarkTableWrapper from './src/plugins/remarkTableWrapper';
 
 export default defineConfig({
   site: 'https://webdev.style',
   base: '/',
-  trailingSlash: 'always',
+  trailingSlash: 'ignore',
   i18n: {
     locales: ['en', 'pl'],
     defaultLocale: 'en',
@@ -19,6 +20,6 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   markdown: {
-    remarkPlugins: [remarkLazyLoading],
+    remarkPlugins: [remarkLazyLoading, remarkTableWrapper],
   },
 });

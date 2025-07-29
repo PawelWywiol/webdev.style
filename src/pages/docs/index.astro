@@ -1,0 +1,44 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Section from '../../components/Section.astro';
+import Head from '../../components/en/Head.astro';
+import { Content as Contact } from '../../content/en/contact.md';
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+const docs: CollectionEntry<'docs'>[] = await getCollection('docs');
+
+let previousCategory: string | null = null;
+---
+
+<Layout>
+  <Head slot="head" />
+  <Section class="docs">
+    <h1>Docs and Notes</h1>
+
+    <ul>
+      {
+        docs
+          .sort((a, b) => a.slug.localeCompare(b.slug))
+          .map((doc) => {
+            const category = doc.data.category;
+            const isNewCategory = category !== previousCategory;
+
+            previousCategory = category;
+
+            return (
+              <>
+                {isNewCategory && <h3>{category}</h3>}
+                <li>
+                  <a href={`/docs/${doc.slug}`}>{doc.data.title}</a>
+                </li>
+              </>
+            );
+          })
+      }
+    </ul>
+  </Section>
+  <Section>
+    <Contact />
+  </Section>
+</Layout>
