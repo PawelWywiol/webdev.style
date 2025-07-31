@@ -126,7 +126,7 @@
 
   pre {
     @apply !bg-dark;
-    @apply p-2 rounded-lg;
+    @apply p-2 rounded-lg my-4;
   }
 
   pre code {
