@@ -14,4 +14,4 @@ Want to discuss a project, potential collaboration, or just have a specific ques
 
 [github/PawelWywiol](https://github.com/PawelWywiol)
 
-[Resume EN](https://webdev.style/pawel-wywiol-en-at-webdev-dot-style.pdf) / [Resume PL](https://webdev.style/pawel-wywiol-pl-at-webdev-dot-style.pdf)
+[Resume EN](https://webdev.style/pawel-wywiol-en-frontend-fullstack.pdf) / [Resume PL](https://webdev.style/pawel-wywiol-pl-frontend-fullstack.pdf)

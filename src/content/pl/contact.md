@@ -14,4 +14,4 @@ Chcesz porozmawiać o projekcie, współpracy albo po prostu zapytać o coś kon
 
 [github/PawelWywiol](https://github.com/PawelWywiol)
 
-[CV EN](https://webdev.style/pawel-wywiol-en-at-webdev-dot-style.pdf) / [CV PL](https://webdev.style/pawel-wywiol-pl-at-webdev-dot-style.pdf)
+[CV EN](https://webdev.style/pawel-wywiol-en-frontend-fullstack.pdf) / [CV PL](https://webdev.style/pawel-wywiol-pl-frontend-fullstack.pdf)
