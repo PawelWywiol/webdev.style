@@ -85,7 +85,7 @@ Front-end Developer / *September 2021 – July 2025 (3 years 11 months)*
 
 ### konceptika
 
-Fullstack Developer / July 2013 – August 2021
+Fullstack Developer / *July 2013 – August 2021 (8 years 2 months)*
 
 - Led full-cycle development of web applications, e-commerce platforms, games
 - Delivered frontend, backend, and infrastructure code
